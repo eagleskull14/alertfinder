@@ -1,92 +1,92 @@
 html {
-  margin: -5px;
-  padding: 0px;
-  overflow-x: hidden;
-  font-family: sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  scrollbar-color: #353535 gray;
+    margin: -5px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    scrollbar-color: #353535 gray;
 }
 
 html,
 input,
 select {
-  background-color: #373740;
-  color: #dddddd;
+    background-color: #373740;
+    color: #dddddd;
 }
 
 #list {
-  background-color: #272730;
-  color: #dddddd;
-  border: 2px solid black;
-  gap: 10px;
-  width: 95vw;
-  height: auto;
-  display: grid;
-  grid-row: auto;
-  padding: 5px 5px;
+    background-color: #272730;
+    color: #dddddd;
+    border: 2px solid black;
+    gap: 10px;
+    width: 95vw;
+    height: auto;
+    display: grid;
+    grid-row: auto;
+    padding: 5px 5px;
 }
 
 .item {
-  border: 1px solid gray;
-  background-color: #373740;
-  color: #dddddd;
-  padding: 2.5px 2.5px;
+    border: 1px solid gray;
+    background-color: #373740;
+    color: #dddddd;
+    padding: 2.5px 2.5px;
 }
 
 .w {
-  border: 1px solid rgb(124, 58, 58) !important;
-  background-color: #490a0a !important;
-  color: #ff6e6e !important;
+    border: 1px solid rgb(124, 58, 58) !important;
+    background-color: #490a0a !important;
+    color: #ff6e6e !important;
 }
 
 .h {
-  border: 1px solid rgb(126, 110, 67) !important;
-  background-color: #5a450d !important;
-  color: #ffa958 !important;
+    border: 1px solid rgb(126, 110, 67) !important;
+    background-color: #5a450d !important;
+    color: #ffa958 !important;
 }
 
 .a {
-  border: 1px solid rgb(92, 124, 123) !important;
-  background-color: #29293b !important;
-  color: #cffdff !important;
+    border: 1px solid rgb(92, 124, 123) !important;
+    background-color: #29293b !important;
+    color: #cffdff !important;
 }
 
 .s {
-  border: 1px solid rgb(92, 124, 104) !important;
-  background-color: #293b32 !important;
-  color: #d5ffcf !important;
+    border: 1px solid rgb(92, 124, 104) !important;
+    background-color: #293b32 !important;
+    color: #d5ffcf !important;
 }
 
 .t {
-  border: 1px solid rgb(124, 92, 119) !important;
-  background-color: #3b2936 !important;
-  color: #ffcff3 !important;
+    border: 1px solid rgb(124, 92, 119) !important;
+    background-color: #3b2936 !important;
+    color: #ffcff3 !important;
 }
 
 .tm {
-  border: 1px solid rgb(71, 71, 71) !important;
-  background-color: #1d1d1d !important;
-  color: #aaaaaa !important;
+    border: 1px solid rgb(71, 71, 71) !important;
+    background-color: #1d1d1d !important;
+    color: #aaaaaa !important;
 }
 
 input {
-  font-size: larger !important;
+    font-size: larger !important;
 }
 
 select {
-  font-size: x-large !important;
+    font-size: x-large !important;
 }
 
 input[type="submit"],
 input[type="reset"],
 select,
 option {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 *::selection {
-  background-color: rgba(3, 113, 133, 0.35);
+    background-color: rgba(3, 113, 133, 0.35);
 }
 
 input[type="submit"],
@@ -96,11 +96,6 @@ option,
 form > h1,
 form > h3,
 form > p,
-details,
 summary {
-  user-select: none;
-}
-
-details > summary {
-  user-select: auto;
+    user-select: none;
 }
