@@ -317,7 +317,9 @@ function updateText(warns, warnlist, state, points) {
                 `". It expires on ` +
                 new Date(warn.properties.expires) +
                 ` and ` +
-                warn.properties.ends == null ? "does not have a end time" : "ends on " + new Date(warn.properties.ends) +
+                (warn.properties.ends == null
+                    ? "does not have a end time"
+                    : "ends on " + new Date(warn.properties.ends)) +
                 `.
                 </p>
                 </details>
