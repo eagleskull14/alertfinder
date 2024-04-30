@@ -316,9 +316,9 @@ function updateText(warns, warnlist, state, points) {
                 warn.properties.urgency +
                 `". It expires on ` +
                 new Date(warn.properties.expires) +
-                ` and ends (if not null) on ` +
-                new Date(warn.properties.ends) +
-                `
+                ` and ` +
+                warn.properties.ends == null ? "does not have a end time" : "ends on " + new Date(warn.properties.ends) +
+                `.
                 </p>
                 </details>
               </div>
