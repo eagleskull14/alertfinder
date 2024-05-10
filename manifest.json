@@ -1,0 +1,14 @@
+{
+  "name": "Alertfinder",
+  "short_name": "alrtfndr",
+  "description": "A simple website to get weather alerts for states or coords.",
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "background_color": "#373740",
+  "theme_color": "#9e3302",
+  "icons": [{
+    "src": "/alertfinderICONB.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }]
+}
