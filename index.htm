@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <script src="noaa.js" defer></script>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <select id="method" onchange="changeForm()">
-      <option>By State</option>
-      <option>By Cords</option>
-      <option>By Current Location</option>
-    </select>
-    <form id="info" method="dialog">
-      <input type="text" id="state" maxlength="2" />
-      <input type="submit" />
-      <input type="reset" />
-    </form>
-    <h2 id="header">Enter the state or cords to get weather alerts.</h2>
-    <div id="list">
-      <div class="item">
-        <h3>The weather alerts will show up here.</h3>
-        <p>There will also be more info on each weather alert here.</p>
-        <details>
-          <summary>More Info</summary>
-          <p>
-            Even more info will appear here. This will include extra info that
-            may or may not be as important as the info shown above.
-          </p>
-        </details>
-      </div>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <script src="noaa.js" defer></script>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            href="alertfinderICONB.png"
+            type="image/x-icon"
+        />
+        <link rel="manifest" href="manifest.json" />
+    </head>
+    <body>
+        <select id="method" onchange="changeForm()">
+            <option>By State</option>
+            <option>By Coords</option>
+            <option>By Current Location</option>
+        </select>
+        <form id="info" method="dialog">
+            <input type="text" id="state" maxlength="2" />
+            <input type="submit" />
+            <input type="reset" />
+        </form>
+        <h2 id="header">Enter the state or coords to get weather alerts.</h2>
+        <div id="list">
+            <div class="item">
+                <h3>The weather alerts will show up here.</h3>
+                <p>There will also be more info on each weather alert here.</p>
+                <details>
+                    <summary>More Info</summary>
+                    <p>
+                        Even more info will appear here. This will include extra
+                        info that may or may not be as important as the info
+                        shown above.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </body>
 </html>
