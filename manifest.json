@@ -1,9 +1,9 @@
 {
   "name": "Alertfinder",
-  "short_name": "alrtfndr",
+  "short_name": "Alertfinder",
   "description": "A simple website to get weather alerts for states or coords.",
   "start_url": "https://eagleskull14.github.io/alertfinder/index.htm",
-  "display": "fullscreen",
+  "display": "standalone",
   "background_color": "#373740",
   "theme_color": "#9e3302",
   "icons": [{
