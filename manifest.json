@@ -2,7 +2,7 @@
   "name": "Alertfinder",
   "short_name": "alrtfndr",
   "description": "A simple website to get weather alerts for states or coords.",
-  "start_url": "/index.html",
+  "start_url": "/index.htm",
   "display": "fullscreen",
   "background_color": "#373740",
   "theme_color": "#9e3302",
