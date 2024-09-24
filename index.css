@@ -70,6 +70,12 @@ select {
     color: #aaaaaa !important;
 }
 
+.am {
+    border: 1px solid rgb(255 137 0) !important;
+    background-color: #a50000 !important;
+    color: #fbff80 !important;
+}
+
 input {
     font-size: larger !important;
 }
