@@ -262,7 +262,7 @@ function updateText(warns, warnlist, state, points) {
                 level = "t";
             } else if (warn.properties.event.includes("Test Message")) {
                 level = "tm";
-            } else if (warn.properties.event.includes("Child Abduction Emergency") {
+            } else if (warn.properties.event.includes("Child Abduction Emergency")) {
                 level = "am"
             } else {
                 level = "";
